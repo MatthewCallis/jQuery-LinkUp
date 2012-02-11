@@ -15,7 +15,6 @@ Find and link SNES to the proper page, but don't link things in the black list.
 
 ```
 $('div').linkup([
-	{ find: "BSNES", 					replace: 'http://byuu.org/bsnes/' },
-	{ find: "byuu ", 					replace: 'http://byuu.org/' }
+	{ find: "SNES",	replace: 'http://superfamicom.org/' }
 ], { blacklist: 'html,head,style,title,link,meta,script,object,embed,iframe,pre,a,h1,h2,h3' });
 ```
