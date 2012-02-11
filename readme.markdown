@@ -3,17 +3,17 @@ I needed to link many strings to various URLs but I didn't want to have to conti
 
 ## Examples ##
 Find and link BSNES and byuu to the appropriate page.
-~~~
+```javascript
 $('p').linkup([
 	{ find: "BSNES",		replace: 'http://byuu.org/bsnes/' },
 	{ find: /byuu(-san)?/,	replace: 'http://byuu.org/' }
 ]);
-~~~
+```
 
 Find and link SNES to the proper page, but don't link things in the black list.
-~~~
+```javascript
 $('div').linkup([
 	{ find: "BSNES", 					replace: 'http://byuu.org/bsnes/' },
 	{ find: "byuu ", 					replace: 'http://byuu.org/' }
 ], { blacklist: 'html,head,style,title,link,meta,script,object,embed,iframe,pre,a,h1,h2,h3' });
-~~~
+```
