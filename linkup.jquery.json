@@ -1,7 +1,7 @@
 {
     "name": "linkup",
     "title": "LinkUp",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Link any exsisting strings to any given URLs.",
     "keywords": [
         "link",
@@ -11,12 +11,12 @@
     ],
     "author": {
         "name": "Matthew Callis",
-        "email": "matthew.callis@gmail.com"
+        "url": "http://superfamicom.org/"
     },
     "maintainers": [
         {
             "name": "Matthew Callis",
-            "email": "matthew.callis@gmail.com"
+            "url": "http://superfamicom.org/"
         }
     ],
     "licenses": [
