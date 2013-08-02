@@ -1,7 +1,7 @@
-# jQuery Link-Up #
+# LinkUp
 I needed to link many strings to various URLs but I didn't want to have to continuously update the page or keep track of the URLs in the database, and in some cases I didn't want the text linked in the visible source.
 
-## Examples ##
+## Examples
 Find and link BSNES and byuu to the appropriate page.
 
 ```
@@ -18,3 +18,7 @@ $('div').linkup([
 	{ find: "SNES",	replace: 'http://superfamicom.org/' }
 ], { blacklist: 'html,head,style,title,link,meta,script,object,embed,iframe,pre,a,h1,h2,h3' });
 ```
+
+## Change Log
+
+*    0.1.0: Initial Commit
